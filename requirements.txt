@@ -1,2 +1,6 @@
 
 # Additional requirements go here
+
+Django~=3.2.18
+wheel~=0.38.4
+setuptools~=65.5.1
