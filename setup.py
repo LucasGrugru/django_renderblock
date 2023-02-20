@@ -43,7 +43,11 @@ if sys.argv[-1] == 'tag':
 
 readme = open('README.rst').read()
 history = open('HISTORY.rst').read().replace('.. :changelog:', '')
-requirements = open('requirements.txt').readlines()
+requirements = [
+    "Django~=3.2.18",
+    "wheel~=0.38.4",
+    "setuptools~=65.5.1",
+]
 
 setup(
     name='django_renderblock',
@@ -63,15 +67,12 @@ setup(
     keywords='django_renderblock',
     classifiers=[
         'Development Status :: 3 - Alpha',
-        'Framework :: Django :: 1.11',
-        'Framework :: Django :: 2.1',
+        'Framework :: Django :: 3.2',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: BSD License',
         'Natural Language :: English',
-        'Programming Language :: Python :: 2',
-        'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.5',
-        'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.8',
+        'Programming Language :: Python :: 3.9',
     ],
 )

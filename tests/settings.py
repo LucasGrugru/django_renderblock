@@ -31,9 +31,6 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'django_renderblock',
-    
-    'django_renderblock.test_utils.test_app'
-    
 
     # if your app has other dependencies that need to be added to the site
     # they should be added here
@@ -48,8 +45,6 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
-
-ROOT_URLCONF = 'tests.urls'
 
 TEMPLATES = [
     {

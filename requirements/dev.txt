@@ -1,5 +1,6 @@
+-r ./base.txt
+
 invoke
 twine
 wheel
 zest.releaser
-

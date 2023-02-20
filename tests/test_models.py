@@ -1,16 +1,4 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-
-"""
-test_django_renderblock
-------------
-
-Tests for `django_renderblock` models module.
-"""
-
 from django.test import TestCase
-
-from django_renderblock import models
 
 
 class TestDjango_renderblock(TestCase):
@@ -19,7 +7,7 @@ class TestDjango_renderblock(TestCase):
         pass
 
     def test_something(self):
-        pass
+        self.assertTrue(True)
 
     def tearDown(self):
         pass
