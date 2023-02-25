@@ -1,6 +1,4 @@
 {% load renderblock %}
-{% renderblock as variable %}
-<p>A block rendered into variable</p>
-{% endrenderblock %}
+{% renderblock as variable %}<em>A block rendered into variable</em>{% endrenderblock %}
 
-{{ variable }}
+<p>{{ variable }}</p>
